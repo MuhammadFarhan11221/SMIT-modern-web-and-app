@@ -44,4 +44,6 @@ var MixedArray = ["Ali", 1, false, "Ahmed", true];
 
 // Ninth Question
 
-
+// var colorsArray = ["red", "blue", "white", "Green"];
+// var user_color = prompt("Enter a Color you want to add on the beginning of the array");
+// document.write
