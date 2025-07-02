@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment 7</title>
+    <title>Document</title>
     <script src="./app.js"></script>
 </head>
 <body>
@@ -117,6 +117,8 @@ if(dayof_Month < 16){
 </script>
 <br>
 <br>
+<!-- seventh question  -->
+
 <script>
 
  var now = new Date();         // abhi ka date/time
@@ -131,18 +133,20 @@ if (hour < 12) {
 </script>
 <br>
 <br>
+
+<!-- eight question -->
+
 <script>
 var Date2020 = new Date(2020,11,31);
 
 document.write("Later Date: " + Date2020);
 
-
-
-
-
 </script>
 <br>
 <br>
+
+<!-- ninth question  -->
+
 <script>
 
 var ramdan1 = new Date(2015,5,18);
@@ -153,13 +157,11 @@ var daysPassed = Math.floor(since / (1000 * 60 * 60 * 24));
 
 alert(daysPassed + " days have passed since 1st ramdan from 2015 ")
 
-
-
-
 </script>
 
 <br>
 <br>
+<!-- Tenth question  -->
 <script>
 var startof02015 = new Date("january 1, 2015" )
 var ms = startof02015.getTime();
@@ -167,16 +169,74 @@ var ms = startof02015.getTime();
 var second = Math.floor(ms / 1000);
 
    document.write("Seconds elapsed between Jan 1, 1970 and Jan 1, 2015: " + second);
- 
 
- 
+</script>
+<br>
+<br>
+
+<!-- Eleventh question -->
+
+<script>
+
+  var currentDate = new Date();
+  var currentHours = currentDate.getHours();
+  currentDate.setHours(currentHours + 1);
+
+  document.write("Date one hour ahead: " + currentDate);
 
 </script>
 
+<br>
+<br>
+<!-- twelveth question  -->
+ <script>
 
+var currentDate = new Date();
+currentDate.setFullYear(currentDate.getFullYear() - 100); 
 
+  alert("Date 100 years back: " + currentDate); 
 
+ </script>
+<br>
+<br>
 
+<!-- <thirdtheen question -->
+
+<script>
+var age = prompt("app ki age kia han");
+var currentYear = new Date().getFullYear();
+
+var birthYear = currentYear - age;
+
+document.write("Aap ka paidaish ka saal hai: " + birthYear);
+
+</script>
+<br>
+<br>
+
+<!-- fortheen question -->
+
+<script>
+
+ var customerName = "ABC Customer";
+  var month = "February";
+  var numberOfUnits = 410;
+  var chargesPerUnit = 16;
+  var latePaymentSurcharge = 350;
+
+  var netAmount = numberOfUnits * chargesPerUnit;
+  var grossAmount = netAmount + latePaymentSurcharge;
+
+  document.write("<p>Customer Name: <b>" + customerName + "</b></p>");
+  document.write("<p>Month: <b>" + month + "</b></p>");
+  document.write("<p>Number of units: <b>" + numberOfUnits + "</b></p>");
+  document.write("<p>Charges per unit: <b>" + chargesPerUnit + "</b></p>");
+  document.write("<br>");
+  document.write("<p>Net Amount Payable (within Due Date): <b>" + netAmount + "</b></p>");
+  document.write("<p>Late payment surcharge: <b>" + latePaymentSurcharge + "</b></p>");
+  document.write("<p>Gross Amount Payable (after Due Date): <b>" + grossAmount + "</b></p>");
+
+</script>
 
 
 
